@@ -1,0 +1,213 @@
+ /* {
+    border: 1px solid red;
+}*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 931px){
+    .columndroprow {
+        margin-bottom: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 930px){
+    .columndroprow {
+        margin-bottom: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+.manualrow {
+    max-width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 571px){
+    .name{
+        font-weight: 100;
+        color: #5D5C4E;
+        text-transform: uppercase;
+        text-align: right;
+        margin-top: 80px;
+        margin-bottom: 4px;
+        font-size: 390%;
+    }
+    .works{
+        color: #B5B4B5;
+        font-weight: 400;
+        margin-left: 12px;
+        font-size: 300%;
+    }
+    .handle{
+        font-weight: 400;
+        color: #5D5C4E;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 24px;
+        font-size: 140%;
+        text-align: right;
+    }
+    .logo{
+        max-width: 150px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 570px){
+    .name{
+        font-weight: 100;
+        color: #5D5C4E;
+        text-transform: uppercase;
+        text-align: right;
+        margin-top: 80px;
+        margin-bottom: 4px;
+        font-size: 300%;
+    }
+    .works{
+         color: #B5B4B5;
+        font-weight: 400;
+        margin-left: 12px;
+        font-size: 200%;
+    }
+    .handle{
+        font-weight: 400;
+         color: #5D5C4E;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 24px;
+        font-size: 100%;
+        text-align: right;
+    }
+    .logo{
+        max-width: 120px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 449px){
+    .name{
+        font-weight: 100;
+        color: #5D5C4E;
+        text-transform: uppercase;
+        text-align: right;
+        margin-top: 80px;
+        margin-bottom: 4px;
+        font-size: 190%;
+    }
+    .works{
+        color: #B5B4B5;
+        font-weight: 400;
+        margin-left: 12px;
+        font-size: 170%;
+    }
+    .handle{
+        font-weight: 400;
+        color: #5D5C4E;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 24px;
+        font-size: 95%;
+        text-align: right;
+    }
+    .logo{
+        max-width: 90px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+}
+
+.underline{
+    border: 2px solid #BCBBBB;
+}
+
+.hero{
+    margin-top: 27px;
+    max-width: 100%;
+}
+
+.apptext{
+        font-weight: 400;
+        color: #5D5C4E;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 240%;
+    }
+
+.urlline{
+    font-weight: 300;
+    color: #5D5C4E;
+    margin-top: 7px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 100%;
+}
